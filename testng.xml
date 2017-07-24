@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Investor HUB -Functional Test Suite">
+	
+	<listeners>
+	
+		<!-- For ReportNG -->
+		<listener class-name = "org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+		
+		<!-- For Customlistener -->
+		
+		<!-- <listener class-name="listener.CustomeListener"/> -->
+		
+	</listeners>
+	
+	
+	
+	
+	
+	<test name="To retrive the current price of BAC ">
+		<classes>
+			<class name="testcases.RetriveTheCurrentPriceOfBAC" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="To retrive 52 Weeks high and low price for BAC ">
+		<classes>
+			<class name="testcases.RetrieveDataOf52WeekHighLowForBAC" />
+		</classes>
+	</test>
+
+	<test name="To retrive reletive current price ">
+		<classes>
+			<class name="testcases.ReletiveCurrentStockPriceWith52WeekHighLow" />
+		</classes>
+	</test>
+
+	<test name="To Compare BAC and C  ">
+		<classes>
+			<class name="testcases.CompareBACPriceWithCiti" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
+
+

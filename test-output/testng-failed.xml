@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Investor HUB -Functional Test Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="To Compare BAC and C  (failed)">
+    <classes>
+      <class name="testcases.CompareBACPriceWithCiti">
+        <methods>
+          <include name="compareBACPriceWithCiti"/>
+        </methods>
+      </class> <!-- testcases.CompareBACPriceWithCiti -->
+    </classes>
+  </test> <!-- To Compare BAC and C  (failed) -->
+</suite> <!-- Failed suite [Investor HUB -Functional Test Suite] -->

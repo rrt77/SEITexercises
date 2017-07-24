@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="To retrive 52 Weeks high and low price for BAC "
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="31.682">
+  <properties />
+  
+  
+            <testcase name="retrieveDataOf52WeekHighLowForBAC" time="31.682" classname="testcases.RetrieveDataOf52WeekHighLowForBAC" />
+      
+</testsuite>
